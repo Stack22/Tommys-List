@@ -3,10 +3,19 @@
 	color: white;
 }
 
-body	{
+html	{
 	background-color: black;
 	background-image: url(../images/light-wood-background.jpg);
 	background-size: cover;
+	background-attachment: fixed; 
+}
+
+main 	{
+	padding-top: 125px;
+}
+
+main .row {
+  margin-bottom: 20px;
 }
 
 #navbar {
@@ -17,10 +26,9 @@ body	{
   	position: fixed;
   	padding: 20px;
   	background-color: goldenrod;
-  	/*background-image: url(../images/navbar_background_1.jpg);
-  	background-size: cover;*/
   	text-shadow: 5px 5px 5px black;
-  	box-shadow: 5px 10px 10px black;
+  	box-shadow: 20px 20px 30px black;
+  	top: 0px;
 }
 
 .navtitle {
@@ -41,5 +49,27 @@ nav > a::after {
 	content: " :: "
 }
 
+.box {
+  height: 400px;
+  text-align: center;
+  padding-top: 30px;
+  box-shadow: 5px 10px 10px black;
+}
 
+.black {
+  background-color: black;
+  color: white;
+}
+
+.green/*, .boxThree*/ {
+  background-color: green;
+}
+
+.orange/*, .boxOne*/ {
+  background-color: orange;
+}
+
+.blue/*, .boxTwo*/ {
+  background-color: blue;
+}
 
