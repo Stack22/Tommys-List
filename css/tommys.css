@@ -1,0 +1,45 @@
+*	{
+	font-family: georgia;
+	color: white;
+}
+
+body	{
+	background-color: black;
+	background-image: url(../images/light-wood-background.jpg);
+	background-size: cover;
+}
+
+#navbar {
+	box-sizing: border-box;
+	width: 100%;
+	height: 80px;
+  	text-align: right;
+  	position: fixed;
+  	padding: 20px;
+  	background-color: goldenrod;
+  	/*background-image: url(../images/navbar_background_1.jpg);
+  	background-size: cover;*/
+  	text-shadow: 5px 5px 5px black;
+  	box-shadow: 5px 10px 10px black;
+}
+
+.navtitle {
+  	position: absolute;
+  	font-size: 30px;
+  	font-weight: 900;
+}
+
+nav > a {
+	position: relative;
+	text-decoration: none;
+	font-size: 18px;
+	top: 10px;
+	font-weight: 600px;
+}
+
+nav > a::after {
+	content: " :: "
+}
+
+
+
