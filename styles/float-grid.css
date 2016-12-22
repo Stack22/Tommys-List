@@ -50,6 +50,10 @@
   width: 100%;
 }
 
+.item-image {
+  max-width: 400px;
+}
+
 
 /* Non-mobile, grid */
 @media only screen and (min-width: 640px) {
