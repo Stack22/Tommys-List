@@ -51,13 +51,19 @@ nav > a::after {
 	content: " :: "
 }
 
-.box {
+.box, .item_image {
   height: 400px;
+  
   text-align: center;
-  padding-top: 30px;
+  padding-top: 0px;
   box-shadow: 5px 10px 10px black;
   border-radius: 15px;
+  margin-bottom: 30px;
 }
+
+/*.item_image	{
+	position: relative;
+}*/
 
 .black {
   background-color: black;
